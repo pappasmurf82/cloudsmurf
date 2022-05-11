@@ -22,7 +22,7 @@ steps:
     command: 'init'
     backendServiceArm: 'Terraform_Play'
     backendAzureRmResourceGroupName: 'TF_State'
-    backendAzureRmStorageAccountName: 'gaterraform'
+    backendAzureRmStorageAccountName: 'gaterraformstate'
     backendAzureRmContainerName: 'terraform'
     backendAzureRmKey: 'GA-TF-Statefile'
 
