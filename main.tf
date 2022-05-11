@@ -7,7 +7,7 @@ terraform {
 
   backend "azurerm" {
     container_name       = "terraform"
-    storage_account_name = "gaterraform"
+    storage_account_name = "gaterraformstate"
     resource_group_name  = "TF_State"
     key                  = "GA-TF-Statefile"
   }
@@ -90,15 +90,3 @@ os_profile_windows_config {
       version = "latest"
   }
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
